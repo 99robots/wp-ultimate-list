@@ -1,0 +1,13 @@
+#wpulist_upload_image_alert_msg{color:red;}
+#wpulist_upload_image_alert{display:none;}
+#wpulist_frm_disclaimer{width:100%;}
+#theme_screenshot{max-width:100%;}
+.theme_screenshot_hidden{display:none;}
+.wputkthumbslct {}
+                .wputkthumbslct ul{ padding-left:0;border-bottom: solid 1px #ececec;padding-bottom: 12px;}
+                .wputkthumbslct ul li{list-style: none;border: solid 1px #e0e0e0;display: inline-block;width: 32.5%;text-align: center; margin-bottom:7px;font-family: arial;padding-bottom: 8px;}
+                .wputkthumbslct ul li img{ width:100%;}
+                /*.wputkthumbslct #closelink{background: #278ddb;border: 0;color: white;padding: 12px 32px;display: block;margin: 0 auto;}*/
+				.wpulist_fixbtndiv {position: fixed;bottom: 0;right: 0px;background: rgba(255, 255, 255, 1);width: 100%;padding: 7px 0px;}
+				.wpulist_dctvt_btn {background: #278ddb;color: white;padding: 10px 31px;border-radius: 2px;font-size: 14px;display: block;cursor: pointer;border: 0; margin: 0 auto;text-transform: uppercase;}
+				.wpulist_dctvt_btn:hover {background:#1f82ce; color:white; text-decoration:none;}

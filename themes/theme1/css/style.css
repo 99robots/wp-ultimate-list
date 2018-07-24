@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {font-family: 'open_sansregular';src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),url('../fonts/opensans-regular-webfont.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'Adelle-Regular';src: url('../fonts/Adelle-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Adelle-Regular.woff') format('woff'), url('../fonts/Adelle-Regular.ttf')  format('truetype'), url('../fonts/Adelle-Regular.svg#Adelle-Regular') format('svg');font-weight: normal;font-style: normal;}
+
+.clear { clear:both;}
+#wpulist_frm_response {font-family: 'open_sansregular' !important;font-size: 15px;text-align: center; color:#fff}
+.titlebox { background:white; padding:33px 22px;}
+.thme1 {background-repeat:no-repeat; background-color:#ff5400; background-size: cover;border: solid 0px #ccc;width: 100%;display: block;padding: 18px;border-radius: 0px;}
+.thme1 .title{font-family: 'Adelle-Regular' !important;color: #fff;font-size: 45px;text-align: center;margin: 0;font-weight: normal;margin-top: 9px;text-transform: none;line-height: 52px;}
+.thme1 .title span{ color:#d5a933 !important;}
+.thme1 .title strong{ color:#2f79e2}
+.thme1 .h1bighed { font-size:45px !important;font-family: 'open_sansregular' !important;}
+.thme1 .bdtext{font-family: 'open_sansregular' !important; color:#fff;font-size: 17px;margin-bottom: 0px;line-height: 25px;margin-top: 0px;padding:13px 5px 28px; text-align:center}
+.thme1 .bdtext p{font-family: 'open_sansregular' !important; color:#fff;font-size: 16px;line-height: 25px;margin-bottom: 12px; text-align:center}
+.thme1 .frmbutton{background:#1d7973;font-family: 'open_sansregular' !important;color: #fff;font-size: 18px;line-height: 31px;cursor: pointer;width:70%; border: solid 0px #b64c94;font-weight: normal;padding: 6px 25px;white-space: normal;text-transform: none;}
+.thme1 input{width: 70%;padding: 6px 10px;font-size: 18px;font-family: 'open_sansregular' !important;display: block;margin: 0 auto 13px;border: solid 0px #b64c94;float: none; color: #000;margin-left: auto;border-radius: 0px;background:#fff;}
+.disclaimer {font-family: 'open_sansregular' !important;text-align: center;color: #fff;margin: 0px 0 22px;font-size: 10px;}
+.thme1 input::-webkit-input-placeholder {
+   color: #ccc;
+   font-family: 'open_sansregular' !important;
+}
+
+.thme1 input:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;  
+   font-family: 'open_sansregular' !important;
+}
+
+.thme1 input::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc; 
+   font-family: 'open_sansregular' !important;
+}
+
+.thme1 input:-ms-input-placeholder {  
+   color: #ccc;  
+   font-family: 'open_sansregular' !important;
+}
+
+.thme1 .left {float: left;width:47%;text-align: center;}
+.right {float: right;width: 51%;margin-top: 0;margin-left: 5px;padding: 17px;}
+.frmbtm { background:#c02632;padding: 15px;text-align: center;}
+
+@media (min-width:768px) {
+	
+}
+
+@media (max-width: 630px) {
+.thme1 .left {display: none;}
+.thme1 .right {float: none !important;margin: 0 auto !important;}	
+.thme1 .right {width: 240px;width: 86%;text-align: center;padding-top: 2px;}	
+.thme1 .title{text-align: center;margin-top: 10px !important;}
+.thme1 input {width: 92%;}
+.thme1 .frmbutton{width: 92%;}
+.thme1 .h1bighed {    line-height: 54px !important;}
+}
+
+@media (max-width: 460px) {
+	
+	
+}
+
+@media (max-width: 700px) {
+
+	
+}
